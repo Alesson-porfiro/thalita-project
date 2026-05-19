@@ -4,7 +4,7 @@ import { Signs } from "./container/sections/Signs";
 import { Expect } from "./container/sections/Expect";
 import { Psycho } from "./container/sections/Psycho";
 import { About } from "./container/sections/About";
-import { Consultorio } from "./container/sections/consultorio";
+import { Consultorio } from "./container/sections/Consultorio";
 import { Faq } from "./container/sections/Faq";
 import { Cta } from "./container/sections/Cta";
 
