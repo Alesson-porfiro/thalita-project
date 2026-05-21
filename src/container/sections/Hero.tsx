@@ -38,7 +38,7 @@ export function Hero() {
 
             {/* BUTTON */}
             <a
-              href="#contato"
+              href="#cta"
               className="
                 inline-flex
                 items-center
