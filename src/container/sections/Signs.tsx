@@ -5,34 +5,50 @@ export function Signs() {
     {
       title: "Baixa motivação",
       text: "A sensação constante de cansaço emocional pode fazer tarefas simples parecerem difíceis e sem sentido.",
+      quote:
+        "Nem todo cansaço é físico — às vezes a mente também precisa de cuidado.",
     },
     {
       title: "Estresse",
       text: "Quando a mente permanece sobrecarregada por muito tempo, o corpo e as emoções também começam a sentir os impactos.",
+      quote:
+        "O excesso de pressão constante pode afastar você do equilíbrio emocional.",
     },
     {
       title: "Ausência de autocontrole",
       text: "Dificuldade em controlar emoções, impulsos ou reações pode indicar conflitos internos importantes.",
+      quote:
+        "Compreender as emoções é o primeiro passo para lidar melhor com elas.",
     },
     {
       title: "Ansiedade excessiva",
       text: "Pensamentos acelerados, preocupação constante e sensação de alerta podem afetar sua qualidade de vida.",
+      quote:
+        "Viver em estado de alerta o tempo todo também é uma forma de sofrimento.",
     },
     {
       title: "Evita pensar no passado",
       text: "Algumas experiências ficam guardadas silenciosamente e influenciam nossa vida mesmo sem percebermos.",
+      quote:
+        "O que não é elaborado emocionalmente costuma permanecer presente.",
     },
     {
       title: "Falta de autoconhecimento",
       text: "Entender quem você é, o que sente e o que deseja é parte essencial de uma vida mais saudável.",
+      quote:
+        "Se conhecer profundamente transforma a maneira como você vive.",
     },
     {
       title: "Transtornos alimentares",
       text: "A relação com a alimentação também pode refletir emoções profundas e conflitos internos.",
+      quote:
+        "Corpo e emoções frequentemente se comunicam de maneiras silenciosas.",
     },
     {
       title: "Depressão",
       text: "A sensação de vazio, tristeza persistente e desconexão emocional merece acolhimento e cuidado.",
+      quote:
+        "Pedir ajuda também faz parte do processo de cuidado consigo mesmo.",
     },
   ];
 
@@ -142,9 +158,8 @@ export function Signs() {
                       {item.text}
                     </p>
 
-                    <p className="mt-4 italic text-[#B89581] font-['Cormorant_Garamond']">
-                      Cada experiência é única — compreender a origem dos
-                      sintomas faz parte do processo terapêutico.
+                    <p className="mt-4 italic text-[#B89581]/80 text-[1.02rem] font-['Cormorant_Garamond']">
+                      {item.quote}
                     </p>
                   </div>
                 </div>

@@ -145,13 +145,7 @@ export function Faq() {
                       {faq.a}
                     </p>
 
-                    {/* detalhe delicado */}
-                    <div className="mt-5 flex items-center gap-3">
-                      <div className="w-8 h-px bg-[#D6B8A5]" />
-                      <span className="text-[#B89581] italic font-['Cormorant_Garamond'] text-lg">
-                        acolhimento e escuta
-                      </span>
-                    </div>
+                   
                   </div>
 
                 </div>
